@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Date">
+   <children>
+      <Button fx:id="r1" layoutX="99.0" layoutY="329.0" mnemonicParsing="false" text="Найти разницу" />
+      <TextField fx:id="d1" layoutX="226.0" layoutY="53.0" promptText="Дата 1" />
+      <TextField fx:id="d2" layoutX="226.0" layoutY="162.0" promptText="Дата 2" />
+      <TextField fx:id="d3" layoutX="225.0" layoutY="274.0" promptText="разница дат" />
+      <TextField fx:id="d4" layoutX="226.0" layoutY="342.0" promptText="високосный или нет" />
+      <TextField fx:id="d11" layoutX="225.0" layoutY="86.0" promptText="Дата1(1)" />
+      <TextField fx:id="d111" layoutX="225.0" layoutY="120.0" promptText="Дата 1(2)" />
+      <TextField fx:id="d21" layoutX="226.0" layoutY="200.0" promptText="Дата 2(1)" />
+      <TextField fx:id="d211" layoutX="225.0" layoutY="238.0" promptText="Дата 2(2)" />
+      <TextField fx:id="r25" layoutX="225.0" layoutY="310.0" promptText="год" />
+      <Button fx:id="r11" layoutX="438.0" layoutY="329.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="175.0" text="Високосный год или нет" />
+      <TextField fx:id="n1" layoutX="418.0" layoutY="53.0" promptText="даты для проверки времени" />
+      <TextField fx:id="n2" layoutX="418.0" layoutY="99.0" promptText="даты для проверки времени" />
+      <TextField fx:id="v1" layoutX="418.0" layoutY="149.0" promptText="время суток" />
+      <Button fx:id="r111" layoutX="438.0" layoutY="287.0" mnemonicParsing="false" text="Определение времени суток" />
+      <TextField fx:id="v11" layoutX="418.0" layoutY="200.0" promptText="форматирование времени" />
+   </children>
+</AnchorPane>
